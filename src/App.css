@@ -1,0 +1,94 @@
+/* Estilos para el componente App */
+
+/* Estilos generales */
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px auto;
+  max-width: 800px; /* Limitar el ancho para que no se vea demasiado extendido en pantallas grandes */
+}
+
+h1 {
+  margin-bottom: 20px; /* Agregar espacio debajo del encabezado principal */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 30px; /* Agregar espacio debajo de la lista de tareas */
+}
+
+ul li {
+  background-color: #f9f9f9; /* Color de fondo para resaltar las tareas */
+  padding: 10px;
+  margin-bottom: 10px; /* Espaciado entre las tareas */
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease; /* Agregar transición suave a la transformación */
+}
+
+ul li:hover {
+  transform: translateY(-3px); /* Levantar ligeramente al pasar el ratón por encima */
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px; /* Agregar espacio debajo del botón */
+  border-radius: 5px;
+  transition: background-color 0.3s ease; /* Agregar transición suave al color de fondo */
+}
+
+button:hover {
+  background-color: #0056b3; /* Cambiar el color al pasar el ratón por encima */
+}
+
+.gif-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gif-card {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease; /* Agregar transición suave a la transformación */
+}
+
+.gif-card:hover {
+  transform: translateY(-5px); /* Levantar ligeramente al pasar el ratón por encima */
+}
+
+.gif-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.gif-info {
+  margin-top: 10px;
+}
+
+.gif-info h2 {
+  font-size: 1.2em;
+  margin-bottom: 10px; /* Reducir el espacio inferior */
+}
+
+.gif-info p {
+  font-size: 0.9em;
+  margin-bottom: 5px; /* Reducir el espacio inferior */
+}
+
+.gif-info a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.gif-info a:hover {
+  text-decoration: underline;
+}
